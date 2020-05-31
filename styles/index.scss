@@ -1,0 +1,23 @@
+@import "variables.scss";
+@import "header.scss";
+@import "headline.scss";
+@import "onePlan.scss";
+@import "fonts.scss";
+@import "products.scss";
+@import "button.scss";
+@import "footer.scss";
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: "Metropolis", sans-serif;
+  color: #2b292d;
+}
+.page {
+  width: 1920px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

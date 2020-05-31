@@ -1,0 +1,57 @@
+.map-box {
+    height: 1056.13px;
+    width: 100%;
+    background-color: $bacraund-color-white;
+    display: flex;
+    &__left {
+        width: 1039px;
+        margin-left: 275px;
+    }
+    &__title {
+        font-size: 48px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: $text-color-black;
+        margin: 0;
+        margin-top: 165px;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: $text-color-orange;
+    }
+    &__checkList {
+        display: flex;
+        flex-direction: row;
+        height: 426px;
+        margin-top: 87px;
+    }
+    &__navigation {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding-left: 0;
+        &_item {
+            display: flex;
+            align-items: center;
+        }
+        &_img {
+            margin-right: 36.5px;
+            text-align: center;
+        }
+        &_text {
+            width: 263px;
+            font-size: 16px;
+        }
+    }
+    &__right {
+        width: 888.07px;
+        &_map {
+            width: 888.07px;
+            height: 1056.13px;
+            background: linear-gradient(217.54deg, #ffffff 0.9%, rgba(255, 255, 255, 0.49) 56.79%, #ffffff 103.1%);
+        }
+    }
+}

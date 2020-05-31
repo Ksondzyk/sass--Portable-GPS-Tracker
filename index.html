@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="x-ua-compatible" content="IE=5" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="top-section">
+        <header class="header">
+          <div class="logo">
+            <div class="logo__text">
+              <img
+                class="logo__image_left"
+                src="img/header_menu/logo-left.png"
+                alt="logo"
+              />
+              <span class="logo__name">Mas</span>
+              <span class="logo__description">Track</span>
+              <img
+                class="logo__shadow"
+                src="img/header_menu/header_shadow.png"
+              />
+
+              <img
+                class="logo__image_right"
+                src="img/header_menu/logo-rigth.png"
+                alt="logo"
+              />
+            </div>
+            <nav class="navigation">
+              <a href="#" class="navigation__item navigation__item_selested"
+                >Special Offers</a
+              >
+              <a href="#" class="navigation__item navigation__item_arrow"
+                >Products <i class="navigation__arrow"></i
+              ></a>
+              <a href="#" class="navigation__item navigation__item_arrow"
+                >Fleeds & ELD <i class="navigation__arrow"></i
+              ></a>
+              <a href="#" class="navigation__item">Service</a>
+              <a href="#" class="navigation__item">FAQ</a>
+              <a href="#" class="navigation__item">About</a>
+              <a href="#" class="navigation__item">Contact</a>
+              <a href="#" class="navigation__item">Activate</a>
+              <a class="navigation__item_card"
+                ><img
+                  class="navigation__item_card_img"
+                  src="img/header_menu/shopping_cart_24.png"
+                  alt="Shopping"
+                />
+                <div class="navigation__item_card_number">8</div></a
+              >
+            </nav>
+          </div>
+          <button class="dropdown-button header__button">
+            <span class="dropdown-button_text"
+              ><img
+                class="dropdown-button_text_img"
+                src="img/header_menu/header_person.png"
+                alt="Person"
+              />
+              <span class="dropdown-button_text_name">Account</span>
+            </span>
+            <ul class="dropdown-list">
+              <li class="dropdown-item">
+                <img
+                  class="dropdown-item_img"
+                  src="img/header_menu/header_wi-fi.svg"
+                  alt="WiFi"
+                /><span>Open tracking portal</span>
+              </li>
+              <li class="dropdown-item">
+                <img
+                  class="dropdown-item_img"
+                  src="img/header_menu/exit_to_app.png"
+                  alt="Exit to"
+                /><span>Log out</span>
+              </li>
+            </ul>
+          </button>
+        </header>
+      </div>
+
+      <!-- Headline -->
+      <section class="headline">
+        <div class="headline__content">
+          <div class="headline_offer">Special offer</div>
+          <div class="headline__left">
+            <img
+              class="headline__left_img"
+              src="img/header_headline/gps_tracker.png"
+              alt="Portable GPS Tracker"
+            />
+            <h2 class="headline__left_title">Portable GPS Tracker</h2>
+            <h3 class="headline__left_text">+ 6 months of service</h3>
+            <span class="headline__left_price">149$</span>
+            <button class="btn-basic transparent">ADD TO CART</button>
+          </div>
+          <div class="headline__right">
+            <h1 class="headline__right_title">
+              All new weather resistent model
+            </h1>
+            <p class="headline__right_description_first">
+              The standard portable tracker battery lasts for up to 8 days on 1
+              minute reporting and up to 15 days on standby
+            </p>
+            <p class="headline__right_description_last">
+              Small enough to fit in a pocket and rugged enough to be mounted
+              under a vehicle. Up to 8 days of use on a single charge and up to
+              60 days with the
+              <a class="headline__right_description_last_link"
+                >Optional Hibernator Case.</a
+              >
+            </p>
+            <p class="headline__right_save">keep your tracker in save:</p>
+
+            <div class="headline_buttons">
+              <button class="headline_buttons_left">
+                <span class="headline_buttons_left_title">buy now</span
+                ><span class="headline_buttons_left_text"
+                  >Optional Hibernator Case</span
+                >
+              </button>
+              <button class="headline_buttons_right">
+                <div class="headline_buttons_right_section">
+                  <span class="headline_buttons_right_title"
+                    >Mini Magnetic Case
+                  </span>
+                  <div class="headline_buttons_right_price">
+                    <span class="headline_buttons_right_price_dollars"
+                      >$24</span
+                    >
+                    <span class="headline_buttons_right_price_cents">99</span>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- One Plan -->
+
+      <section class="map-box">
+        <div class="map-box__left">
+          <h1 class="map-box__title">One plan & one payment</h1>
+          <h3 class="map-box__text">
+            includes 6 months of service from activation date
+          </h3>
+          <div class="map-box__checkList">
+            <ul class="map-box__navigation">
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/phone.png"
+                  alt="Phone"
+                />
+                <p class="map-box__navigation_text">
+                  24/7 Customer Support (USA)
+                </p>
+              </li>
+
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/dot.svg"
+                  alt="Dot"
+                />
+                <p class="map-box__navigation_text">
+                  24/7 Unlimited Online Tracking
+                </p>
+              </li>
+
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/history.png"
+                  alt="History"
+                />
+                <p class="map-box__navigation_text">Unlimited History</p>
+              </li>
+
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/car.png"
+                  alt="Car"
+                />
+                <p class="map-box__navigation_text">Real time traffic</p>
+              </li>
+
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/mini_map.png"
+                  alt="MiniMap"
+                />
+                <p class="map-box__navigation_text">Google Maps</p>
+              </li>
+
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/errow.png"
+                  alt="Errow"
+                />
+                <p class="map-box__navigation_text">Custom GeoFences</p>
+              </li>
+
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/chat.png"
+                  alt="Chat"
+                />
+                <p class="map-box__navigation_text">
+                  Unlimited Text Message and Email Alerts
+                </p>
+              </li>
+
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/↳tasks.png"
+                  alt="Tasks"
+                />
+                <p class="map-box__navigation_text">Custom Reporting</p>
+              </li>
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/man.png"
+                  alt="Man"
+                />
+                <p class="map-box__navigation_text">Street View</p>
+              </li>
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/monitiring.png"
+                  alt="Monitiring"
+                />
+                <p class="map-box__navigation_text">Maintenance Monitoring</p>
+              </li>
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/whill.png"
+                  alt="Whill"
+                />
+                <p>Track mileage</p>
+              </li>
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/mobil.png"
+                  alt="Mobil Phone"
+                />
+                <p class="map-box__navigation_text">Mobile Tracking App</p>
+              </li>
+              <li class="map-box__navigation_item">
+                <img
+                  class="map-box__navigation_img"
+                  src="img/map_box/jear.png"
+                  alt="Jear"
+                />
+                <p class="map-box__navigation_text">
+                  Check Engine Notifications MT-OBD Only
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="map-box__right">
+          <img
+            class="map-box__right_map"
+            src="img/map_box/rectangle.png"
+            alt="Map"
+          />
+        </div>
+      </section>
+
+      <section class="products">
+        <img class="map-icon" src="img/prices/map.png" />
+        <img class="circle-icon" src="img/prices/circle.png" />
+        <div class="product-box">
+          <div class="product-box__tagline">
+            <h1 class="product-box__title">You can also try:</h1>
+          </div>
+          <div class="product-box__model">
+            <img
+              class="product-box__model_picture"
+              src="img/prices/obd_transparent.png"
+            />
+            <div class="product-box__description">
+              <div class="product-box__price">
+                <div class="product-box__price-box">
+                  <span class="product-box__price-box_text">Plug & Play</span>
+                  <h2 class="product-box__price-box_title">Model: MT-OBD</h2>
+                </div>
+                <span class="product-box__price_dollars">$199</span>
+              </div>
+              <p class="product-box__description_text">
+                This easy-to-use live GPS tracking device requires no
+                professional installation and no wiring. Simply plug the MT-OBD
+                device directly into the OBDII port, which is located under your
+                dashboard, and you're ready to go.
+              </p>
+              <button class="btn-basic white">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="product__down">
+          <div class="product-box">
+            <div class="product-box__model box-model">
+              <img
+                class="product-box__model_picture picture_last"
+                src="img/prices/121_transparent.png"
+              />
+              <div class="product-box__description decription">
+                <div class="product-box__price">
+                  <div class="product-box__price-box">
+                    <span class="product-box__price-box_text">Hardwired</span>
+                    <h2 class="product-box__price-box_title">Model: MT-121</h2>
+                  </div>
+                  <span class="product-box__price_dollars">$199</span>
+                </div>
+                <p class="product-box__description_text">
+                  Simple installation, connects directly to any make, model or
+                  year vehicle. Placed under the dashboard or behind plastic
+                  panels within the vehicle, this device can be completely
+                  hidden from view.
+                </p>
+                <button class="btn-basic orange">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-wrapper">
+          <div class="logo-footer">
+            <div class="logo">
+              <div class="logo__text">
+                <img
+                  class="logo__image_left"
+                  src="img/header_menu/logo-left.png"
+                  alt="logo"
+                />
+                <span class="logo__name">Mas</span>
+                <span class="logo__description">Track</span>
+                <img
+                  class="logo__shadow"
+                  src="img/header_menu/header_shadow.png"
+                />
+
+                <img
+                  class="logo__image_right"
+                  src="img/header_menu/logo-rigth.png"
+                  alt="logo"
+                />
+              </div>
+            </div>
+            <span class="logo-footer__text">we are available on:</span>
+            <div class="market-place">
+              <a class="market-place__link"
+                ><img
+                  class="market-place__img"
+                  src="img/footer/appstore.png"
+                  alt="footer"
+              /></a>
+              <a class="market-place__link">
+                <img
+                  class="market-place__img"
+                  src="img/footer/gglplay.png"
+                  alt="footer"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-menu">
+            <div class="footer-item">
+              <span class="footer-item__title">Contact us:</span>
+              <a class="footer-item__link" href="#">800-559-8991 </a>
+              <a class="footer-item__link" href="#">212-319-6242</a>
+            </div>
+            <div class="footer-item">
+              <span class="footer-item__title">hours:</span>
+              <a class="footer-item__link" href="#">Monday - Friday </a>
+              <a class="footer-item__link" href="#">9am - 6pm EST</a>
+            </div>
+            <div class="footer-item">
+              <span class="footer-item__title">programs:</span>
+              <a class="footer-item__link item__assistance" href="#"
+                >Roadside Assistance</a
+              >
+              <a class="footer-item__link item-white" href="#"
+                >Family Tracking</a
+              >
+            </div>
+            <div class="footer-item">
+              <span class="footer-item__title">portal links:</span>
+              <a class="footer-item__link item-white" href="#"
+                >Live Tracking Portal
+              </a>
+              <a class="footer-item__link item-white" href="#"
+                >eLog ELD Portal</a
+              >
+            </div>
+          </div>
+        </div>
+        <p class="about">
+          2019 Mobile Asset Solutions. All rights reserved.
+          <a class="about__link">Terms of Service</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

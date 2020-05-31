@@ -1,0 +1,776 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+}
+.header__menu-button {
+  width: 58px;
+  border: none;
+  border-left: 1px solid #00000026;
+  height: 100%;
+  margin-left: auto;
+  background: transparent;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 176.76px;
+}
+.navigation__item {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 14px;
+  margin-right: 39px;
+}
+.navigation__item_selested {
+  font-size: 14px;
+  line-height: 14px;
+  margin-right: 46px;
+}
+.navigation__item_arrow {
+  margin-right: 37.83px;
+}
+.navigation__arrow {
+  background-image: url("/img/mask.png");
+  height: 4px;
+  width: 8.33px;
+  margin-left: 21.83px;
+}
+.navigation__item_card {
+  display: flex;
+  background: transparent;
+  align-items: center;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.navigation__item_card_img {
+  width: 20px;
+  height: 20px;
+  margin-right: 9.99px;
+}
+.navigation__item_card_number {
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+  background-color: #323232;
+  border-radius: 40px;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo__image_left {
+  width: 16.59px;
+  height: 30.47px;
+  margin-right: 3.78px;
+}
+.logo__image_right {
+  width: 16.59px;
+  height: 30.47px;
+  margin-left: 3.78px;
+}
+.logo__name {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.logo__description {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.78431);
+}
+.logo__text {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.logo__shadow {
+  position: absolute;
+  height: 16.65px;
+  top: 20px;
+  left: 22px;
+  width: 89.18px;
+}
+
+.top-section {
+  background-color: #222222;
+}
+
+.dropdown-button {
+  position: relative;
+  background-color: #222222;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f26f22;
+  width: 136px;
+  height: 100%;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-button:hover {
+  background-color: #323232;
+  opacity: 1;
+}
+.dropdown-button_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-button_text_img {
+  width: 16px;
+  height: 16px;
+  margin-right: 17px;
+}
+.dropdown-button_text_name {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+.dropdown-button .dropdown-list {
+  position: absolute;
+  width: 230px;
+  height: 125px;
+  top: 80px;
+  right: 0;
+  color: white;
+  list-style-type: none;
+  background-color: #323232;
+  padding: 0;
+  z-index: 1;
+  margin: 0;
+  display: none;
+  cursor: pointer;
+}
+.dropdown-button .dropdown-list .dropdown-item {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+.dropdown-button .dropdown-list .dropdown-item_img {
+  width: 20px;
+  height: 20px;
+  margin-right: 19.7px;
+  margin-left: 39.33px;
+}
+.dropdown-button:hover .dropdown-list {
+  display: block;
+  opacity: 1;
+}
+
+.headline {
+  width: 100%;
+  background-image: url(img/header_headline/Mask_Group.png);
+  background-repeat: no-repeat;
+}
+.headline__content {
+  display: flex;
+  position: relative;
+  width: 1219px;
+  height: 640px;
+  margin: auto;
+  margin: 105px 352px;
+  background: rgba(34, 34, 34, 0.7);
+  backdrop-filter: blur(24px);
+}
+.headline_offer {
+  width: 136px;
+  height: 32px;
+  background-color: #f26f22;
+  color: #ffffff;
+  text-align: center;
+  line-height: 32px;
+  font-size: 12px;
+  background: linear-gradient(-64deg, transparent 15px, #f26f22 0) right, linear-gradient(45deg, transparent 15px, transparent 0) left;
+  position: absolute;
+  left: -18px;
+  top: 18px;
+  text-transform: uppercase;
+}
+.headline__left {
+  width: 460px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #333333;
+}
+.headline__left_img {
+  width: 216px;
+  height: 230px;
+  margin-top: 80px;
+}
+.headline__left_title {
+  margin: 0;
+  margin-top: 61px;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.headline__left_text {
+  margin: 9px 0 32px 0;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #f1592b;
+}
+.headline__left_price {
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 56px;
+}
+.headline__right {
+  width: 758px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headline__right_title {
+  color: #f1592b;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 64px;
+}
+.headline__right_description_first {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  width: 458px;
+  margin: 0;
+  margin-top: 39px;
+}
+.headline__right_description_last {
+  width: 458px;
+  margin: 0;
+  margin-top: 50px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+.headline__right_description_last_link {
+  text-decoration: underline;
+  color: #f1592b;
+}
+.headline__right_save {
+  margin-bottom: 0;
+  margin-top: 112px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+}
+.headline_buttons {
+  display: flex;
+  margin-top: 58px;
+}
+.headline_buttons_left {
+  width: 300px;
+  height: 116px;
+  background-color: #f26f22;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headline_buttons_left_title {
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 128px;
+}
+.headline_buttons_left_text {
+  padding: 0;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-top: 9px;
+  margin-left: 128px;
+  opacity: 0.7;
+}
+.headline_buttons_right {
+  width: 300px;
+  height: 116px;
+  border: 1px solid #333333;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 44px;
+}
+.headline_buttons_right_section {
+  margin-right: 17px;
+}
+.headline_buttons_right_title {
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #f1592b;
+}
+.headline_buttons_right_price {
+  display: flex;
+  align-items: flex-start;
+}
+.headline_buttons_right_price_dollars {
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.headline_buttons_right_price_cents {
+  font-size: 12px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-left: 3px;
+}
+
+.map-box {
+  height: 1056.13px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+}
+.map-box__left {
+  width: 1039px;
+  margin-left: 275px;
+}
+.map-box__title {
+  font-size: 48px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+  margin-top: 165px;
+}
+.map-box__text {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #f1592b;
+}
+.map-box__checkList {
+  display: flex;
+  flex-direction: row;
+  height: 426px;
+  margin-top: 87px;
+}
+.map-box__navigation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+.map-box__navigation_item {
+  display: flex;
+  align-items: center;
+}
+.map-box__navigation_img {
+  margin-right: 36.5px;
+  text-align: center;
+}
+.map-box__navigation_text {
+  width: 263px;
+  font-size: 16px;
+}
+.map-box__right {
+  width: 888.07px;
+}
+.map-box__right_map {
+  width: 888.07px;
+  height: 1056.13px;
+  background: linear-gradient(217.54deg, #ffffff 0.9%, rgba(255, 255, 255, 0.49) 56.79%, #ffffff 103.1%);
+}
+
+@font-face {
+  font-family: "Metropolis Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Regular"), url("/fonts/metropolis-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Regular Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Regular Italic"), url("/fonts/Metropolis-RegularItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Extra Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Extra Light"), url("/fonts/Metropolis-ExtraLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Light"), url("/fonts/Metropolis-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Thin"), url("/fonts/Metropolis-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Extra Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Extra Light Italic"), url("/fonts/Metropolis-ExtraLightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Light Italic"), url("/fonts/Metropolis-LightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Thin Italic"), url("/fonts/Metropolis-ThinItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Medium"), url("/fonts/Metropolis-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Semi Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Semi Bold"), url("/fonts/Metropolis-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Bold"), url("/fonts/Metropolis-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Bold Italic"), url("/fonts/Metropolis-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Medium Italic"), url("/fonts/Metropolis-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Semi Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Semi Bold Italic"), url("/fonts/Metropolis-SemiBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Extra Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Extra Bold"), url("/fonts/Metropolis-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Extra Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Extra Bold Italic"), url("/fonts/Metropolis-ExtraBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Black"), url("/fonts/Metropolis-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Metropolis Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Metropolis Black Italic"), url("/fonts/Metropolis-BlackItalic.woff") format("woff");
+}
+.products {
+  height: 1041px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.products .product-box {
+  width: 100%;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.products .product-box__tagline {
+  width: 338px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.products .product-box__title {
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #222222;
+}
+.products .product-box__model {
+  position: relative;
+  width: 707px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+.products .product-box__model_picture {
+  position: absolute;
+  left: -37px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 220px;
+  height: 272px;
+}
+.products .product-box__description {
+  width: 420px;
+  left: 0;
+  margin-left: 237px;
+}
+.products .product-box__description_text {
+  margin: 32px 0 40px 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+}
+.products .product-box__price {
+  display: flex;
+  justify-content: space-between;
+}
+.products .product-box__price_dollars {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  line-height: 24px;
+  color: #222222;
+}
+.products .product-box__price-box {
+  display: flex;
+  flex-direction: column;
+}
+.products .product-box__price-box_text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+.products .product-box__price-box_title {
+  margin: 0;
+  margin-top: 12px;
+  font-size: 24px;
+  line-height: 24px;
+  border-bottom: 1px solid #222222;
+  color: #222222;
+}
+.products .product__down {
+  margin-top: 80px;
+  margin-left: -90px;
+  z-index: 2;
+}
+.products .product__down .box-model {
+  width: 768px;
+  height: 340px;
+}
+.products .product__down .box-model .picture_last {
+  width: 309px;
+  height: 222px;
+  left: -71px;
+}
+.products .product__down .box-model .decription {
+  margin-left: 287px;
+}
+.products .map-icon {
+  width: 932px;
+  height: 782px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  bottom: 0;
+}
+.products .circle-icon {
+  width: 649px;
+  height: 649px;
+  position: absolute;
+  right: 0;
+  bottom: -31%;
+}
+
+.btn-basic {
+  width: 140px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+}
+.btn-basic.orange {
+  color: #f1592b;
+  background-color: #ffffff;
+  border: 1px solid #f1592b;
+}
+.btn-basic.white {
+  color: #ffffff;
+  background-color: #f1592b;
+}
+.btn-basic.transparent {
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+
+.footer {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/footer/MaskGroup.png);
+  padding-top: 100px;
+  background-size: cover;
+}
+.footer .footer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.footer .logo-footer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 144px;
+}
+.footer .logo-footer__text {
+  margin-top: 19.73px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.05px;
+  text-transform: lowercase;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.footer .logo-footer .market-place {
+  display: flex;
+}
+.footer .logo-footer .market-place__link {
+  margin: 26px 15px 0 15px;
+}
+.footer .logo-footer .market-place__img {
+  width: 90px;
+  height: 20px;
+}
+.footer .footer-menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer-item {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-item__title {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.05px;
+  text-transform: capitalize;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 31px;
+}
+.footer .footer-item__link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer .footer-item .item__assistance {
+  color: #f1592b;
+  text-decoration: underline;
+}
+.footer .footer-item .item-white {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.footer .about {
+  margin-top: 133px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.05px;
+  text-transform: capitalize;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.footer .about__link {
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Metropolis", sans-serif;
+  color: #2b292d;
+}
+
+.page {
+  width: 1920px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */

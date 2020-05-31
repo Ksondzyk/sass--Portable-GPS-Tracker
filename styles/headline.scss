@@ -1,0 +1,179 @@
+.headline {
+  width: 100%;
+  background-image: url(img/header_headline/Mask_Group.png);
+  background-repeat: no-repeat;
+  &__content {
+    display: flex;
+    position: relative;
+    width: 1219px;
+    height: 640px;
+    margin: auto;
+    margin: 105px 352px;
+    background: rgba(34, 34, 34, 0.7);
+    backdrop-filter: blur(24px);
+  }
+  &_offer {
+    width: 136px;
+    height: 32px;
+    background-color: #f26f22;
+    color: $text-color-white;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    background: linear-gradient(-64deg, transparent 15px, #f26f22 0) right,
+      linear-gradient(45deg, transparent 15px, transparent 0) left;
+    position: absolute;
+    left: -18px;
+    top: 18px;
+    text-transform: uppercase;
+  }
+  &__left {
+    width: 460px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #333333;
+    &_img {
+      width: 216px;
+      height: 230px;
+      margin-top: 80px;
+    }
+    &_title {
+      margin: 0;
+      margin-top: 61px;
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      color: $text-color-white;
+    }
+    &_text {
+      margin: 9px 0 32px 0;
+      font-size: 18px;
+      line-height: 18px;
+      text-align: center;
+      color: $text-color-orange;
+    }
+    &_price {
+      font-size: 36px;
+      line-height: 36px;
+      text-align: center;
+      color: $text-color-white;
+      margin-bottom: 56px;
+    }
+  }
+  &__right {
+    width: 758px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title {
+      color: $text-color-orange;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0;
+      margin-top: 64px;
+    }
+    &_description_first {
+      font-size: 14px;
+      line-height: 24px;
+      color: $text-color-white;
+      text-align: center;
+      width: 458px;
+      margin: 0;
+      margin-top: 39px;
+    }
+    &_description_last {
+      width: 458px;
+      margin: 0;
+      margin-top: 50px;
+      font-size: 14px;
+      line-height: 24px;
+      color: $text-color-white;
+      text-align: center;
+      &_link {
+        text-decoration: underline;
+        color: $text-color-orange;
+      }
+    }
+    &_save {
+      margin-bottom: 0;
+      margin-top: 112px;
+      color: $text-color-white;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  &_buttons {
+    display: flex;
+    margin-top: 58px;
+    &_left {
+      width: 300px;
+      height: 116px;
+      background-color: #f26f22;
+      border: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &_title {
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: $text-color-white;
+        margin-left: 128px;
+      }
+      &_text {
+        padding: 0;
+        font-size: 12px;
+        line-height: 12px;
+        color: $text-color-white;
+        margin-top: 9px;
+        margin-left: 128px;
+        opacity: 0.7;
+      }
+    }
+    &_right {
+      width: 300px;
+      height: 116px;
+      border: 1px solid #333333;
+      background: transparent;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      margin-left: 44px;
+      &_section {
+        margin-right: 17px;
+      }
+      &_title {
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: $text-color-orange;
+      }
+      &_price {
+        display: flex;
+        align-items: flex-start;
+        &_dollars {
+          font-size: 24px;
+          line-height: 36px;
+          color: $text-color-white;
+        }
+        &_cents {
+          font-size: 12px;
+          line-height: 29px;
+          color: #ffffff;
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.footer {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/footer/MaskGroup.png);
+  padding-top: 100px;
+  background-size: cover;
+  .footer-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .logo-footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 144px;
+    &__text {
+      margin-top: 19.73px;
+      font-size: 12px;
+      line-height: 12px;
+      text-align: center;
+      letter-spacing: 0.05px;
+      text-transform: lowercase;
+      color: $text-color-white;
+      opacity: 0.4;
+    }
+    .market-place {
+      display: flex;
+
+      &__link {
+        margin: 26px 15px 0 15px;
+      }
+      &__img {
+        width: 90px;
+        height: 20px;
+      }
+    }
+  }
+  .footer-menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.05px;
+      text-transform: capitalize;
+      color: $text-color-white;
+      opacity: 0.8;
+      margin-bottom: 31px;
+    }
+    &__link {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 0.05px;
+      text-transform: uppercase;
+      color: $text-color-white;
+    }
+    .item__assistance {
+      color: $text-color-orange;
+      text-decoration: underline;
+    }
+    .item-white {
+      color: $text-color-white;
+      text-decoration: underline;
+    }
+  }
+  .about {
+    margin-top: 133px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.05px;
+    text-transform: capitalize;
+    color: $text-color-white;
+    opacity: 0.8;
+    &__link {
+      text-decoration: underline;
+    }
+  }
+}

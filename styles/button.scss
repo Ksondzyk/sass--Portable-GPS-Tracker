@@ -1,0 +1,26 @@
+@mixin size-button {
+  width: 140px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+}
+@mixin color-button($color, $background-color) {
+  color: $color;
+  background-color: $background-color;
+}
+
+.btn-basic {
+  @include size-button;
+  &.orange {
+    @include color-button($text-color-orange, $text-color-white);
+    border: 1px solid $text-color-orange;
+  }
+  &.white {
+    @include color-button($text-color-white, $text-color-orange);
+  }
+  &.transparent {
+    color: $text-color-white;
+    background: transparent;
+    border: 1px solid #ffffff;
+  }
+}
